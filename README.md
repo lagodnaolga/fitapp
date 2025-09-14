@@ -1,1 +1,1 @@
-# fitapp
+# fitapp - app to track your progress
