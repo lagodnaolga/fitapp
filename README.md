@@ -1,1 +1,1 @@
-# fitapp - app to track your progress
+# fitapp - app to track your progress and to schedule classes
