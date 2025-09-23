@@ -1,12 +1,15 @@
-from django.http import HttpResponse
+#from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def homepage(request):
-    print(f'This is request + {request}') 
-    return HttpResponse('Hello World. I am home.')
+   # print(f'This is request + {request}') 
+   # return HttpResponse('Hello World. I am home.')
+   return render(request, 'home.html')
     
 
 def about(request):
-    return HttpResponse('My about page.')
+    # return HttpResponse('My about page.')
+    return render(request, 'about.html')
 
   
